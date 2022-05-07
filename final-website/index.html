@@ -8,50 +8,748 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- load our reset stylesheet -->
-<link rel="stylesheet" href="assets/css/reset.css">
-<!-- load our main stylesheet -->
-<link rel="stylesheet" href="assets/css/styles.css">
+ <!-- BS4 CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+<!-- FONT AWESOME  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+<!-- FONT GOOGLE -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+
+<!-- OWL CAROUSEL -->
+<link rel="stylesheet" href="C:\Users\u3203966\Desktop\Project 2\css\owl.carousel.min.css">
+<link rel="stylesheet" href="C:\Users\u3203966\Desktop\Project 2\css\owl.theme.default.min.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="C:\Users\u3203966\Desktop\Project 2\css\main.css">
 <!-- you could add favicons etc here -->
 
     <!-- set the site title to be a variable, defined in the md file -->
-    <title>11056 Project 2 Starter</title>
+    <title>11056 Project 2</title>
 </head>
 
 <body>
     <header>
-        <div class="inner-wrapper">
-            <h1>11056 Project 2 Starter</h1>
-        </div>
+        <nav class="myNavBar navbar navbar-expand-md navbar-light">
+            <div class="d-md-none col-sm-2 col-3">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-xl-7 col-lg-9 col-md-8 col-sm-8 col-6 myNavBar__col">
+                <div class="myNavBar__left">
+                    <a class="navbar-brand" href="#">
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\T1Logo.png" alt="logo">
+                    </a>
+                    <form class="myNavBar__form-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-3 col-md-4 col-sm-2 col-3 myNavBar--reset">
+                <div class="myNavBar__right">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item business">
+                            <a class="nav-link" href="#">Become a Member</a>
+                            <div class="overlay">
+                                <p>Enjoy a great salary up to 5k per year</p>
+                                <a href="#">Sing Up</a>
+                            </div>
+                        </li>
+                        <li class="nav-item instructor">
+                            <a class="nav-link" href="#">Become an Sponsor</a>
+                            <div class="overlay">
+                                <p>Long Term Contract with Special Offer</p>
+                                <a href="#">Sign Up</a>
+                            </div>
+                        </li>
+                        <li class="nav-item myNavBar__cart">
+                            <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
+                        </li>
+                        <li class="nav-item myNavBar__buttons">
+                            <button class="button button--white">Log In</button>
+                            <button class="button button--red">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+    <section class="cover">
+        <div class="cover__content">
+            <h1></h1>
+            <p></p>
+        </div>
+    </section>
+    <section class="intro">
+        <div class="intro__content">
+            <div class="row">
+                <div class="col-4">
+                    <div class="intro__items">
+                        <div class="intro__icon">
+                            <i class="fa fa-bullseye"></i>
+                        </div>
+                        <div class="intro__details">
+                            <p>Champion 2022</p>
+                            <p>2 Prestigious Cups</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="intro__items">
+                        <div class="intro__icon">
+                            <i class="fa fa-spinner"></i>
+                        </div>
+                        <div class="intro__details">
+                            <p>Best Team 2022</p>
+                            <p>5 times to win penta skill during the season</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="intro__items">
+                        <div class="intro__icon">
+                            <i class="fa fa-sync-alt"></i>
+                        </div>
+                        <div class="intro__details">
+                            <p>Best Training In The World</p>
+                            <p>Become the world's toughest and most effective training team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <main>
         <div class="inner-wrapper">
             <!-- STOP! Don't add anything more to the base template -->
             <!-- the content here is loaded through the homepage template -->
             
             
-<div class="hero">
-    <h2>I am the hero title!</h2>
-</div>
+<header>
+    <nav class="myNavBar navbar navbar-expand-md navbar-light">
+        <div="d-md-none col-sm-2 col-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
 
-<div class="main-content">
-    <h1>Hello!</h1>
-<h2>I am your index.md file</h2>
-<p>Any content you add to this markdown file will be displayed on the homepage</p>
+            </button>
+        </div>
+    </nav>
+</header>
 
-</div>
+
             
         </div>
+
+        <section class="courses">
+            <div class="courses__content">
+                <div class="row">
+                    <div class="col-xl-4 col-md-3 col-12 courses__left">
+                        <div>
+                            <h2>ESPORTS APPAREL</h2>
+                            <h1>T1</h1>
+                            <h1>COLLECTION</h1>
+                            <p>Check out our latest items</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-md-9 col-12">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="dev-tab" data-toggle="tab" href="#dev"
+                                    role="tab">Shopping</a>
+                            </li>             
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="dev" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="owl-carousel owl-theme courses__carousel">
+                                    <div class="card">
+                                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\t-shirt1.jpeg" class="card-img-top" alt="ts1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Ultimate T-Shirt: official player shirt</h5>
+                                            <p class="card-text">T1 Collection</p>
+                                            <div class="card__stars">
+                                                <span>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\t-shirt2.jpg" class="card-img-top" alt="ts2">
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Basic T-Shirt: Reserve team shirt
+                                            </h5>
+                                            <p class="card-text">T1 Collection</p>
+                                            <div class="card__stars">
+                                                <span>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half"></i>
+                                                </span>                                           
+                                            </div>                                      
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\t-shirt3.png" class="card-img-top" alt="ts3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Ultimate Jacket: official player shirt
+                                            </h5>
+                                            <p class="card-text">T1 Collection</p>
+                                            <div class="card__stars">
+                                                <span>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half"></i>
+                                                </span>                                          
+                                            </div>                                   
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\hoodie1.jpg" class="card-img-top" alt="ts1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Ultimate T-Shirt: official player shirt</h5>
+                                            <p class="card-text">T1 Collection</p>
+                                            <div class="card__stars">
+                                                <span>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half"></i>
+                                                </span>
+                                            </div>                                    
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\hoodie2.jpeg" class="card-img-top" alt="ts2">
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Basic T-Shirt: Reserve team shirt
+                                            </h5>
+                                            <p class="card-text">T1 Collection</p>
+                                            <div class="card__stars">
+                                                <span>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half"></i>
+                                                </span>                                       
+                                            </div>                                       
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\hoodie3.jpeg" class="card-img-top" alt="ts3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Ultimate Jacket: official player shirt
+                                            </h5>
+                                            <p class="card-text">T1 Collection</p>
+                                            <div class="card__stars">
+                                                <span>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half"></i>
+                                                </span>                                   
+                                            </div>                                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="profile-tab">
+    
+                            </div>
+                            <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="contact-tab">
+    
+                            </div>
+                            <div class="tab-pane fade" id="itContent" role="tabpanel" aria-labelledby="contact-tab">
+    
+                            </div>
+                            <div class="tab-pane fade" id="personal" role="tabpanel" aria-labelledby="contact-tab">
+    
+                            </div>
+                            <div class="tab-pane fade" id="marketing" role="tabpanel" aria-labelledby="contact-tab">
+    
+                            </div>
+                            <div class="tab-pane fade" id="photography" role="tabpanel" aria-labelledby="contact-tab">    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="viewing">
+            <div class="viewing__content">
+                <h2>T1 TEAMS</h2>
+                <div class="owl-carousel owl-theme viewing__carousel">
+                    <div class="card">
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\T1TEAMS_1.jpg" class="card-img-top" alt="kh8">
+                        <div class="card-body">
+                            <h5 class="card-title">VALORANT</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\T1TEAMS_2.jpg" class="card-img-top" alt="kh9">
+                        <div class="card-body">
+                            <h5 class="card-title">DOTA 2</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\T1TEAMS_3.jpg" class="card-img-top" alt="kh10">
+                        <div class="card-body">
+                            <h5 class="card-title">SUPER SMASH BROS ULTIMATE
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\T1TEAMS_4.jpg" class="card-img-top" alt="kh11">
+                        <div class="card-body">
+                            <h5 class="card-title">LEAGUE OF LEGENDS CHALLENGERS
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\T1TEAMS_5.jpg" class="card-img-top" alt="kh12">
+                        <div class="card-body">
+                            <h5 class="card-title">CONTENT CREATORS
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\T1TEAMS_6.jpg" class="card-img-top" alt="kh13">
+                        <div class="card-body">
+                            <h5 class="card-title">>LEAGUE OF LEGENDS
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\T1TEAMS_7.jpg" class="card-img-top" alt="kh14">
+                        <div class="card-body">
+                            <h5 class="card-title">OVERWATCH CONTENDER
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BANNER  -->
+    <section class="banner">
+        <div class="container">
+            <h2>Be A Part Of Legend</h2>
+            <p>In My Legend There Are You</p>
+            <p>In Your Legend there's me</p>
+            <p>A Thousand and Thousand Years Longevityee</p>
+            <button class="button--red">Sign Up For Free</button>
+            <div class="row">
+                <div class="col-6 text-right">
+                    <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\google_btn.png" alt="google btn">
+                </div>
+                <div class="col-6 text-left">
+                    <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\apple_btn.png" alt="apple btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="categories">
+        <div class="categories__content">
+            <h2>Top Categories</h2>
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                    <div class="categories__items">
+                        <i class="fa fa-pencil-alt"></i>
+                        <span>Champion 2021</span>
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\cup1.gif" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                    <div class="categories__items">
+                        <i class="fa fa-pencil-alt"></i>
+                        <span>Runner-up 2020</span>
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\cup1.gif" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                    <div class="categories__items">
+                        <i class="fa fa-pencil-alt"></i>
+                        <span>Runner-up 2019</span>
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\cup1.gif" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                    <div class="categories__items">
+                        <i class="fa fa-pencil-alt"></i>
+                        <span>Champion 2018</span>
+                        <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\cup1.gif" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- players -->
+    <section class="players">
+        <div class="players__content">
+            <h2>T1 - Official Player</h2>
+            <div class="owl-carousel owl-theme players__carousel">
+                <div class="card card--feedback">
+                    <div class="card-body">
+                        <div class="card__top">
+                            <div class="card__avatar">
+                                <img src="C:\Users\u3203966\Documents\GitHub\Project 2\member1-Faker.png" alt="member 1">
+                            </div>
+                            <p class="card-text">
+                                <span class="card__name">Faker</span><br>
+                                Position: Captain
+                                Role in the game: mid lane - mage
+                            </p>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="card card--feedback">
+                    <div class="card-body">
+                        <div class="card__top">
+                            <div class="card__avatar">
+                                <img src="C:\Users\u3203966\Documents\GitHub\Project 2\member2-Gumayusi.png" alt="member 2">
+                            </div>
+                            <p class="card-text">
+                                <span class="card__name">Gumayusi</span><br>
+                                Position: Vice Captain
+                                Role in the game: bot lane - AD carry
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card--feedback">
+                    <div class="card-body">
+                        <div class="card__top">
+                            <div class="card__avatar">
+                                <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\member3-Keria.png" alt="member 3">
+                            </div>
+                            <p class="card-text">
+                                <span class="card__name">Keria</span><br>
+                                Position: player
+                                Role in the game: bot lane - support
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card--feedback">
+                    <div class="card-body">
+                        <div class="card__top">
+                            <div class="card__avatar">
+                                <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\member4-Oner.png" alt="member 4">
+                            </div>
+                            <p class="card-text">
+                                <span class="card__name">Oner</span><br>
+                                Position: player
+                                Role in the game: Top lane - gladiator
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card--feedback">
+                    <div class="card-body">
+                        <div class="card__top">
+                            <div class="card__avatar">
+                                <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\member5-Support Backup-Asper.png" alt="member 5">
+                            </div>
+                            <p class="card-text">
+                                <span class="card__name">Asper</span><br>
+                                Position: player
+                                Role in the game: bot lane - support
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card--feedback">
+                    <div class="card-body">
+                        <div class="card__top">
+                            <div class="card__avatar">
+                                <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\member6-Zeus.png" alt="member 6">
+                            </div>
+                            <p class="card-text">
+                                <span class="card__name">Zeus</span><br>
+                                Position: player
+                                Role in the game: Jungle - hunter, assassin
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card--feedback">
+                    <div class="card-body">
+                        <div class="card__top">
+                            <div class="card__avatar">
+                                <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\Head Coach_polt.png" alt="Coach">
+                            </div>
+                            <p class="card-text">
+                                <span class="card__name">Polt</span><br>
+                                Position: Coach
+                                Role in the game: match and practice supervisor
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section class="partners">
+        <div class="partners__content">
+            <div class="partners__text">
+                <p>Trusted by companies of all sizes</p>
+            </div>
+            <div class="partners__imgs">
+                <div class="partners__items">
+                    <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\league-of-legends-90.png" alt="booking">
+                </div>
+                <div class="partners__items">
+                    <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\volkswagen.svg" alt="volkswagen">
+                </div>
+                <div class="partners__items">
+                    <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\mercedes.svg" alt="mercedes">
+                </div>
+                <div class="partners__items">
+                    <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\pinterest.svg" alt="pinterest">
+                </div>
+                <div class="partners__items">
+                    <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\adidas.svg" alt="adidas">
+                </div>
+                <div class="partners__items">
+                    <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\paypal.svg" alt="paypal">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JOBS  -->
+    <section class="jobs">
+        <div class="jobs__content container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-12 border-right">
+                    <div class="jobs__items">
+                        <h2>Become an Sponsor</h2>
+                        <p>Become a sponsor and advertising incentives and thousands of other earning opportunities.</p>
+                        <button class="button--red">Start sponsoring today.</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="jobs__items">
+                        <h2>Become a Member</h2>
+                        <p>Players from all over the world are welcomed at T1 AND you WILL be the top player in the world.</p>
+                        <button class="button--red">Start training today.</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
+
 
     <!-- The content in this file is inserted into the base.html file -->
 <footer>
-    <div class="inner-wrapper">
-        <p>This content is in the _footer.html file.</p>
-        <p>This page was made by Ben, you should update and remove this text. </p>
+    <div class="footer__top">
+        <div class="row">
+            <div class="col-md-9 col-12">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link bold" href="#">Become a Member</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bold" href="#">Become an Sponsor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">T1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help and Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Affiliate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sitemap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Korean</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-12">
+                <!-- Default dropup button -->
+                <div class="btn-group dropup text-md-right">
+                    <button type="button" class="btn button--dropup dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-globe"></i>English
+                    </button>
+                    <div class="dropdown-menu">
+                        <!-- Dropdown menu links -->
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <a class="dropdown-item" href="#">Español</a>
+                        <a class="dropdown-item" href="#">Français</a>
+                        <a class="dropdown-item" href="#">Bahasa Indonesia</a>
+                        <a class="dropdown-item" href="#">Italiano</a>
+                        <a class="dropdown-item" href="#">日本語</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer__bottom">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <img src="C:\Users\u3203966\Documents\GitHub\Project 2\img\T1Logo.png" alt="logo">
+                <span>Copyright &copy; 2022 T1, Inc.</span>
+            </div>
+            <div class="col-md-6 col-12">
+                <ul class="nav justify-content-md-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Terms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Privacy Policy and Cookie Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>
+</footer>
+
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <!-- popper -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <!-- BS4 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- OWL JS     -->
+    <script src="C:\Users\u3203966\Documents\GitHub\Project 2\JS\owl.carousel.min.js"></script>
+    <script>
+        $('.courses__carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 2,
+                    margin: 5
+                },
+                600: {
+                    items: 3,
+                    margin: 5
+                },
+                1000: {
+                    items: 4,
+                    margin:5
+                },
+                1450:{
+                    items: 4,
+                    margin:15
+                }
+            }
+        });
+        $('.viewing__carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 2,
+                    margin: 5
+                },
+                600: {
+                    items: 3,
+                    margin: 5
+                },
+                768:{
+                    items: 4,
+                    margin: 5
+                },
+                1000: {
+                    items: 6,
+                    margin:5
+                },
+                1450:{
+                    items: 6,
+                    margin:15
+                }
+            }
+        });
+
+        $('.players__carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },                
+                900:{
+                    items: 2
+                },                
+                1200: {
+                    items: 3
+                }
+            }
+        });
+    </script>
+     <!-- BACK TO TOP -->
+     <a href="#" class="backToTop cd-top text-replace js-cd-top"><i class="fa fa-angle-up"></i></a>
+    <!-- MAIN JS -->
+    <script src="C:\Users\u3203966\Documents\GitHub\Project 2\JS\main.js"></script>
+    <script src="C:\Users\u3203966\Documents\GitHub\Project 2\JS\util.js"></script>
+    <script src="C:\Users\u3203966\Documents\GitHub\Project 2\JS\main-backToTop.js"></script>
 
 </body>
 

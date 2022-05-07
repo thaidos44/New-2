@@ -10,3 +10,4 @@ As for GitHub, I made a huge mistake for not being able to push my code daily, a
 
 After finishing the project, I feel like there are more things that I could have spend a little more time to imporve upon, such as the developing another page for the website. On the original T1 Webite (T1.gg), when a mouse is dragged upon a clickable link or image, there is an effect which give user the idea that the link is clickable. Another thing is the navigation bar of T1 website will follow you drag the page down. 
 
+Although I have included the img file where all of the images that I used for this project is in, I had to later on pulled them out so that link works, I do not understand how it was like that.
